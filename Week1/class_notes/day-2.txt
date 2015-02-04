@@ -1,0 +1,59 @@
+https://codefellows.basecamp.com/todo_lists.html?a=b
+
+Protocol: https:// (or http://)
+requested the browser to use to communicate with the system wherever it is and retrieve the information. hypertext transport protocol (secure)
+
+[sub]domain: codefellows.basecamp.com
+having "codefellows" on the front makes it a subdomain
+
+path: /todo_lists
+this is the path that you're looking to find on that particular computer
+
+format: .html
+
+
+parameters/query string: ?due_frame=later&a=b&key=value
+here is some information computer, please use it.
+
+
+http request has 3 parts:
+  - URL
+  - method
+  - headers
+
+http response 3 parts:
+  - status code
+  - headers
+  - body
+
+.com .net .org .ninja etc - TLD (top level domain)
+google microsoft apple etc - domain
+support.apple.com  blog.google.com - subdomain
+
+IP addresses are mapped to domain and TLD.
+
+
+Required Structure for HTML
+  - DOCTYPE: instructs the browser the type of doc to display
+  - html
+  - head outlines any meta data the doc title and links to external files. outside of <title>, no tags are visible within the web page in the browser to the user.
+  - body: all of the content visible on the webpage
+
+
+Where to put JS file in HTML doc:
+  When a file is referenced in the <HEAD> the browser immediately processes everything. Browser executes and retrieves everything before looking at body. Then browser gets to body and goes through the body in order from top to bottom. Good practice is to put JS in <head> or at that very bottom of body just before the closing </body> tag.
+
+
+  DOM - Document-Object Model: a cross platform and language independent convention for representing and interacting with elements in HTML, XHMTL, and XML documents. The nodes of every document are organized in a tree structure, called the DOM tree, with the topmost node referred to as 'the document'
+  Web browsers rely on layout engines to parse into a DOM.
+  Layout engines:
+  Trident/MSHTML - used by IE
+  Gecko - Mozilla Firefox
+  Webkit - Safari/iOS
+  Blink - Chrome and Opera
+
+
+HW - Copy HTML5 boilerplate content to the directory Users/mattralston/CodeFellows/Week1/week1-sample-code/matt-ralston , except for index.html
+Add to header of index.html : add CSS, JS links/references.
+Then add, commit, and push those changes to my Github repo.
+Then submit a pull request to Adron.

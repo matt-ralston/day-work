@@ -1,0 +1,22 @@
+Everything is an object in JS
+
+variables - an object that holds an object
+
+4 main elements of JS
+  string: puts things together concatinate
+  number
+  array
+  object
+
+decision structure
+
+function
+
+math library - when we use it, it is an object.
+
+
+if
+if-else (if-then-else)
+switch
+while
+do-while

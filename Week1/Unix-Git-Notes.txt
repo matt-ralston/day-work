@@ -1,0 +1,20 @@
+We've learned the history of Unix.
+
+
+The Unix Way has 4 principles:
+
+1. Data as plaintext files
+
+2. Nested subdirectories. good structure and organization
+
+3. Many small programs  - and should do one specific thing well. if you have  it do one specific task well, there should be less surprises/problems arise
+
+4. Input-output redirection. the OS should always be able to take info from an input mechanism and display in output (screen mostly).
+
+
+Common Commands:
+pwd - what user you’re on
+cd - change directory
+ls - list subdirectories
+mkdir - create directory
+touch - create file

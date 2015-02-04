@@ -1,0 +1,63 @@
+<script>
+
+var FirstName = "Matt",
+    LastName = " Ralston. ",
+    Mode = "",            //This stores the value of transportation used today.
+    Change = "5",          //Change in your pocket.
+    HoursOfSleep = "",
+    Awoken = "",
+    Emails = "",
+    Feels = "",
+    msg = "";
+
+Mode = prompt("How did you get to CodeFellows?")
+HoursOfSleep = prompt("How many hours of sleep did you get last night?")
+
+msg = "Hello " + FirstName + LastName;
+
+
+
+if (Mode == "walk") {
+msg += "\nI hope your walk was gorgeous!"
+}
+  else {
+    msg += "\nI hope your " + Mode + " was enjoyable."
+  }
+
+
+
+if (Change > .25 && Change < 2) {
+  msg += "\nCould I have a quarter for a call?"
+}
+  else if (Change >= 2) {
+    msg += "\n" + Change;
+  }
+
+
+
+if (HoursOfSleep <= 2) {
+  msg += "\nOuch, don't hurt yourself, get some sleep."
+}
+  else if (HoursOfSleep > 2 && HoursOfSleep <= 6) {
+  msg += "\nGo push chairs today, that's less brainpower."
+  }
+  else if (HoursOfSleep > 6 && HoursOfSleep < 10 ) {
+  msg += "\nYou're our brainpower!"
+  }
+
+
+
+console.log(msg)
+
+</script>
+
+
+<!--
+1. Hello firstName lastName
+2. I hope your mode was enjoyable.
+or I hope your walk was gorgeous.
+3. > $0.25 and < $2 "Could I have a quarter for a call?"
+    > $2 then print it out
+4. Hours of Sleep is 2 or less, "Ouch, don't hurt yourself, get some sleep."
+    If >= 6 hours, "Go push chairs today, that's less brainpower."
+    If > 6 < 10, "You're our brainpower!" -->
