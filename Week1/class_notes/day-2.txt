@@ -54,6 +54,6 @@ Where to put JS file in HTML doc:
 
 
 HW - Copy HTML5 boilerplate content to the directory Users/mattralston/CodeFellows/Week1/week1-sample-code/matt-ralston , except for index.html
-Add to header of index.html : add CSS, JS links/references.
+Add to header of index.html : CSS, JS links/references.
 Then add, commit, and push those changes to my Github repo.
 Then submit a pull request to Adron.

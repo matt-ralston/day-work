@@ -1,0 +1,49 @@
+Day 3 notes
+
+for loop has 3 parts:
+
+
+variable
+property has a value
+array - list
+function
+object
+
+
+=== Will not
+
+What can we store in a var (variable)?
+  Some data types are provided by the programming language:
+    primitive types: integers, floats, characters, Booleans
+    complex types: strings, arrays, key-value pairs
+      complex type is usually made of of primitive types of some type.
+
+  Data types allow us to store and manipulate values with operations
+
+  Integers use + to mean addition: 5 + 2 : 7
+  Strings use +to mean concatenations: "5" + "2" : 52
+
+
+Sublime : in CSS type out attribute: then type "control spacebar" and a box will open showing all options.
+
+
+HW
+
+make new html file, in the head of doc build out an object of animal, similar of what we worked on today.
+top 3 or 4 are properites today and bottom were funtions (name.)
+
+var = Animal {
+  properties which are playful, etc.
+  then functions which are fly, etc.
+}
+
+then link .css file to it.
+
+then git add, git commit
+push to local
+then do pull request under matt-ralston/week1-blah blah
+
+
+properties: playful, annoying, texture, legs, eyes, sound, height, width, weight
+function: fly, walk, run, fight, eat, sleep, mood
+
